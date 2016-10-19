@@ -59,7 +59,7 @@ ui-build:
         PROD_REGION_ID: "{{deploy.parameters.prod-region}}"
       execute: true
     services: ["ui-repo", "test"]
-  hidden: [form, description]  
+  hidden: [form, description]
 
 catalog-api-build:
   service_id: pipeline
@@ -121,7 +121,12 @@ test:
 alerting:
   service_id: pagerduty
   include: pagerduty.yml
-  
+
+#Deployment Risk Analytics
+dra:
+  service_id: draservicebroker
+  include: dra.yml
+
 #Web IDE
 webide:
   service_id: orion
