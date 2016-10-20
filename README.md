@@ -6,7 +6,7 @@ Get started with this sample, which is an online store that consists of three mi
 *** This version stops all the deployed apps ***
 
 ###To get started, click this button:
-[![Deploy To Bluemix](https://bluemix.net/deploy/button.png)](https://daily-console.stage1.ng.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/hmagph/loadtest-toolchain-demo)
+[![Deploy To Bluemix](https://bluemix.net/deploy/button.png)](https://daily-console.stage1.ng.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/jparra5/loadtest-toolchain-demo)
 
 ---
 ###Learn more
